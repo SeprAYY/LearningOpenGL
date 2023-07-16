@@ -1,6 +1,6 @@
 #pragma once
 
-#include<GL/eglew.h>
+#include <GL/glew.h>
 
 #define DEBUG = 1
 #define ASSERT(x) if(!(x)) __debugbreak();
