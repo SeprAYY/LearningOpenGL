@@ -2,6 +2,7 @@
 
 #include <vector>
 #include "Renderer.h"
+#include <stdexcept>
 
 struct VertexBufferElement
 {
@@ -34,7 +35,7 @@ public:
 	template<typename T>
 	void Push(unsigned int count)
 	{
-		ASSERT(false);
+		std::runtime_error(false);
 		//type is unmatched
 	}
 
